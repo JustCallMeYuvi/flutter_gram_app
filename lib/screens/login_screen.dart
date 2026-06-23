@@ -45,7 +45,7 @@ class _InstagramLoginScreenState extends State<InstagramLoginScreen> {
         'isLoggedIn',
         true,
       );
-      debugPrint(
+      print(
         Hive.box('users').get('isLoggedIn'),
       );
 
